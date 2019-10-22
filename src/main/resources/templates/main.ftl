@@ -1,16 +1,19 @@
-<#import "parts/common.ftl" as c>
+<#import "parts/default.ftl" as c>
 
 <@c.page>
     <div class="form-row">
         <div class="form-group col-md-6">
             <form method="get" action="/main" class="form-inline">
                 <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag">
-                <button type="submit" class="btn btn-primary ml-2">Search</button>
+                <div>
+                    <p style="margin-left: 20px"> </p>
+                </div>
+                <button type="submit" class="btn btn-outline-dark">Search</button>
             </form>
         </div>
     </div>
 
-    <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    <a class="btn btn-outline-dark" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
         Add new Message
     </a>
     <div class="collapse" id="collapseExample">
@@ -30,7 +33,7 @@
                 </div>
                 <input type="hidden" name="_csrf" value="${_csrf.token}" />
                 <div class="form-group">
-                    <button type="submit" class="btn btn-primary">Добавить</button>
+                    <button type="submit" class="btn btn-outline-dark">Добавить</button>
                 </div>
             </form>
         </div>
@@ -42,7 +45,7 @@
                 <#if message.filename??>
                     <img src="/img/${message.filename}" class="card-img-top">
                 </#if>
-                <div class="m-2">
+                <div class="text-light bg-dark">
                     <span>${message.text}</span>
                     <i>${message.tag}</i>
                 </div>

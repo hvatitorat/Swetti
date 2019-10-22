@@ -1,4 +1,4 @@
-<#import "parts/common.ftl" as c>
+<#import "parts/default.ftl" as c>
 
 <@c.page>
     <h5>${username}</h5>
@@ -17,6 +17,6 @@
             </div>
         </div>
         <input type="hidden" name="_csrf" value="${_csrf.token}" />
-        <button class="btn btn-primary" type="submit">Save</button>
+        <button class="btn btn-outline-dark" type="submit">Save</button>
     </form>
 </@c.page>

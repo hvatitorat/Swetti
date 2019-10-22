@@ -2,7 +2,7 @@ package com.example.swetti.service;
 
 import com.example.swetti.domain.Role;
 import com.example.swetti.domain.User;
-import com.example.swetti.repository.UserRepo;
+import com.example.swetti.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
@@ -16,18 +16,18 @@ import java.util.stream.Collectors;
 @Service
 public class UserService implements UserDetailsService {
     @Autowired
-    private UserRepo userRepo;
+    private UserRepository userRepository;
 
     @Autowired
     private MailSender mailSender;
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
-        return userRepo.findByUsername(username);
+        return userRepository.findByUsername(username);
     }
 
     public boolean addUser(User user) {
-        User userFromDb = userRepo.findByUsername(user.getUsername());
+        User userFromDb = userRepository.findByUsername(user.getUsername());
 
         if (userFromDb != null) {
             return false;
@@ -37,7 +37,7 @@ public class UserService implements UserDetailsService {
         user.setRoles(Collections.singleton(Role.USER));
         user.setActivationCode(UUID.randomUUID().toString());
 
-        userRepo.save(user);
+        userRepository.save(user);
 
         sendMessage(user);
 
@@ -48,7 +48,7 @@ public class UserService implements UserDetailsService {
         if (!StringUtils.isEmpty(user.getEmail())) {
             String message = String.format(
                     "Hello, %s! \n" +
-                            "Welcome to Sweater. Please, visit next link: http://localhost:8080/activate/%s",
+                            "Welcome to Swetti. Please, visit next link: http://localhost:8080/activate/%s",
                     user.getUsername(),
                     user.getActivationCode()
             );
@@ -58,7 +58,7 @@ public class UserService implements UserDetailsService {
     }
 
     public boolean activateUser(String code) {
-        User user = userRepo.findByActivationCode(code);
+        User user = userRepository.findByActivationCode(code);
 
         if (user == null) {
             return false;
@@ -66,13 +66,13 @@ public class UserService implements UserDetailsService {
 
         user.setActivationCode(null);
 
-        userRepo.save(user);
+        userRepository.save(user);
 
         return true;
     }
 
     public List<User> findAll() {
-        return userRepo.findAll();
+        return userRepository.findAll();
     }
 
     public void saveUser(User user, String username, Map<String, String> form) {
@@ -90,7 +90,7 @@ public class UserService implements UserDetailsService {
             }
         }
 
-        userRepo.save(user);
+        userRepository.save(user);
     }
 
     public void updateProfile(User user, String password, String email) {
@@ -111,7 +111,7 @@ public class UserService implements UserDetailsService {
             user.setPassword(password);
         }
 
-        userRepo.save(user);
+        userRepository.save(user);
 
         if (isEmailChanged) {
             sendMessage(user);
