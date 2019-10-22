@@ -2,8 +2,7 @@ package com.example.swetti.domain;
 
 import javax.persistence.*;
 
-//@Entity = дает знать спрингу, что это не прост окусок кода, а сущность, которую необходимо сохранить в базу данных
-//Все классы в пакете domain явяляются сущностями.
+
 @Entity
 public class Message {
 
