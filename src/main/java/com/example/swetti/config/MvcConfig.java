@@ -6,6 +6,8 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+//Класс который содержит генерацию кофнигурации веб слоя
+//Так же имеется дефолтная система авторизации
 @Configuration
 public class MvcConfig implements WebMvcConfigurer {
     @Value("${upload.path}")

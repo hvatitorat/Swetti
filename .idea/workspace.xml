@@ -3,34 +3,22 @@
   <component name="ChangeListManager">
     <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="First commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/UserRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Message.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Message.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/hello.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/repository/MessageRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/repository/UserRepo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/greeting.ftl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/common.ftl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/profile.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/profile.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/registration.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/registration.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userList.ftl" afterDir="false" />
     </list>
     <list id="8b4a23d0-7a81-4295-9d9b-a4a795a81eb7" name="Migrating on freemarker template engine, tweaking filter redirect" comment="fix bugs" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -44,22 +32,70 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+            <state relative-caret-position="152">
+              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
               <folding>
-                <element signature="e#353#378#0#HTML" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+            <state relative-caret-position="162">
+              <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="738">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-18">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,6 +119,9 @@
       <find>Login</find>
       <find>card</find>
       <find>add</find>
+      <find>log</find>
+      <find>searc</find>
+      <find>bean</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -97,7 +136,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/Application.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/GreetingController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.mustache" />
@@ -105,34 +143,38 @@
         <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.mustache" />
         <option value="$PROJECT_DIR$/src/main/resources/static/style.css" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/common.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/registration.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/userList.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Role.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/UserRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/RegistrationController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/greeting.ftl" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Message.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/profile.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/main.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftl" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Message.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -190,6 +232,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="swetti" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="swetti" type="b2602c69:ProjectViewProjectNode" />
+              <item name="swetti" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="swetti" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -226,23 +277,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="swetti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swetti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="swetti" type="b2602c69:ProjectViewProjectNode" />
-              <item name="swetti" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="parts" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -257,7 +291,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571686596352" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1571748373304" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSyn" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -331,7 +365,7 @@
       <workItem from="1571687034800" duration="23000" />
       <workItem from="1571693914038" duration="367000" />
       <workItem from="1571695340710" duration="1204000" />
-      <workItem from="1571741599053" duration="2978000" />
+      <workItem from="1571741599053" duration="6719000" />
     </task>
     <task id="LOCAL-00001" summary="0">
       <created>1571340844567</created>
@@ -365,13 +399,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56703000" />
+    <option name="totallyTimeSpent" value="60444000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -379,17 +413,18 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Duplicate detector" sideWeight="0.93336886" weight="0.32936078" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32936078" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.56556505" visible="true" weight="0.3391116" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.40303358" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.565032" weight="0.3391116" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6982942" visible="true" weight="0.054171182" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.1928494" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.43443498" side_tool="true" weight="0.3856988" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.30170575" side_tool="true" visible="true" weight="0.054171182" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32936078" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" sideWeight="0.49946696" weight="0.32936078" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
@@ -482,16 +517,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://Z:/JDK/lib/src.zip!/java.base/jdk/internal/reflect/NativeMethodAccessorImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
@@ -506,16 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="11" column="30" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Role.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -523,69 +538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="46" column="1" selection-start-line="46" selection-start-column="1" selection-end-line="46" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#469#494#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="2" selection-start-line="2" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#416#441#1" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/controller/RegistrationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="766">
-          <caret line="111" column="1" selection-start-line="111" selection-start-column="1" selection-end-line="111" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Message.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="50" column="5" lean-forward="true" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="24" column="12" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -609,23 +565,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="738">
-          <caret line="52" column="44" selection-start-line="52" selection-start-column="44" selection-end-line="52" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -702,20 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="17" column="21" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="24" column="22" lean-forward="true" selection-start-line="24" selection-start-column="22" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/profile.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -723,12 +648,138 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="9" lean-forward="true" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="3" column="62" selection-start-line="3" selection-start-column="62" selection-end-line="3" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/templates/main.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="54" lean-forward="true" selection-start-line="8" selection-start-column="54" selection-end-line="8" selection-end-column="54" />
+        <state relative-caret-position="270">
+          <caret line="15" column="4" selection-start-line="15" selection-start-column="4" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="e#353#378#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="413">
+          <caret line="110" column="5" lean-forward="true" selection-start-line="110" selection-start-column="5" selection-end-line="110" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="77" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/domain/Message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="94" selection-start-line="9" selection-start-column="94" selection-end-line="9" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userMessages.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/service/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="27" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/config/MailConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

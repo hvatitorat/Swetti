@@ -13,6 +13,7 @@ import org.springframework.util.StringUtils;
 import java.util.*;
 import java.util.stream.Collectors;
 
+//Сервис создания сообщения отправленно на акаует юзера для подтверждения пользователя
 @Service
 public class UserService implements UserDetailsService {
     @Autowired

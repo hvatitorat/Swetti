@@ -19,8 +19,16 @@ import java.io.IOException;
 import java.util.Map;
 import java.util.UUID;
 
+//Что такое Controller - это программный модуль который по пути к приммеру @GetMapping("/main") (@GetMapping в данном случае указание пути)
+//слушает запросы пользователья и возвращает данные(шаблоны, темплейты)
 @Controller
 public class MainController {
+
+    /*Что такое @Autowired?
+    Если же опустить все умные слова, то полезную функциональность аннотации @Autowired можно описать следующим образом...
+    Используя эту аннотацию, не нужно заботиться о том, как лучше всего передать классу или bean'у экземпляр другого bean'a.
+    Фреймворк Spring сам найдет нужный bean и подставит его значение в свойство, которое отмечено аннотацией @Autowired.*/
+
     @Autowired
     private MessageRepository messageRepository;
 
@@ -51,7 +59,7 @@ public class MainController {
     @PostMapping("/main")
     public String add(
             @AuthenticationPrincipal User user,
-            @RequestParam String text,
+            @RequestParam String text,//запрашиваемы параметры, выдергивает из запросов из формы или из url по имени указанном в переменной
             @RequestParam String tag, Map<String, Object> model,
             @RequestParam("file") MultipartFile file
     ) throws IOException {
@@ -80,4 +88,5 @@ public class MainController {
 
         return "main";
     }
+
 }
