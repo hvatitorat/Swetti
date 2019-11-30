@@ -1,24 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="Password encoding. Bean validation">
+    <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="Add captcha check">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/MvcConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/RegistrationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/config/WebSecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/config/WebSecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/security.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/config/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/config/MvcConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/domain/Message.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/domain/Message.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/default.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/default.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/security.ftl" afterDir="false" />
     </list>
     <list id="7e3b3d37-6443-48ae-a78e-adccec66f482" name="editing comments" comment="editing comments" />
     <list id="8b4a23d0-7a81-4295-9d9b-a4a795a81eb7" name="Migrating on freemarker template engine, tweaking filter redirect" comment="fix bugs" />
@@ -240,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575141943756</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Add captcha check">
+      <created>1575151166583</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1575151166583</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -291,41 +297,42 @@
     <MESSAGE value="editing comments" />
     <MESSAGE value="Add DB migrations" />
     <MESSAGE value="Password encoding. Bean validation" />
-    <option name="LAST_COMMIT_MESSAGE" value="Password encoding. Bean validation" />
+    <MESSAGE value="Add captcha check" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add captcha check" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1575143983243">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1575151292258">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575143983243" />
-    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575141943125">
+    <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575151292258" />
+    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575151166106">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575141943125" />
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1575150900210">
+    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575151166106" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1575153264886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575150900210" />
-    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1575150900210">
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575153264886" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1575153264886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575150900210" />
-    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1575150900209">
+    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575153264886" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1575153264886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575150900209" />
-    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1575150900210">
+    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575153264886" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1575153264886">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575150900210" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575153264886" />
     <state x="696" y="323" key="SettingsEditor" timestamp="1575138677794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="696" y="323" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575138677794" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575141946305">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575151168997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575141946305" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575151168997" />
     <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1575136699666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -334,10 +341,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="522" y="195" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575137554457" />
-    <state x="937" y="229" key="extract.method.dialog" timestamp="1575138364498">
+    <state x="937" y="229" key="extract.method.dialog" timestamp="1575153090769">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="937" y="229" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575138364498" />
+    <state x="937" y="229" key="extract.method.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575153090769" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1575137591017">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
