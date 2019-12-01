@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="Add tests">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MessageController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/swetti/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/swetti/MainControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/repository/MessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/repository/MessageRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/swetti/MainControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/swetti/MainControllerTest.class" afterDir="false" />
-    </list>
+    <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="" />
     <list id="7e3b3d37-6443-48ae-a78e-adccec66f482" name="editing comments" comment="editing comments" />
     <list id="8b4a23d0-7a81-4295-9d9b-a4a795a81eb7" name="Migrating on freemarker template engine, tweaking filter redirect" comment="fix bugs" />
     <option name="SHOW_DIALOG" value="false" />
@@ -317,7 +304,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575164836096</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Add pagination">
+      <created>1575222431090</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1575222431090</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -372,7 +366,8 @@
     <MESSAGE value="Add user messages list and message editor" />
     <MESSAGE value="Add subscriptions" />
     <MESSAGE value="Add tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
+    <MESSAGE value="Add pagination" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add pagination" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="169" key="#LoginTest.contextLoads" timestamp="1575159901789">
@@ -391,10 +386,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="289" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575218070594" />
-    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575164835443">
+    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575222430391">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575164835443" />
+    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575222430391" />
     <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1575222275689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
