@@ -4,7 +4,7 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <form method="get" action="/main" class="form-inline">
-                <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag">
+                <input type="text" name="filter" class="form-control" value="${filter?ifExists}" placeholder="Search by tag" />
                 <div>
                     <p style="margin-left: 20px"> </p>
                 </div>

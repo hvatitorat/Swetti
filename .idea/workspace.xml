@@ -3,27 +3,15 @@
   <component name="ChangeListManager">
     <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/domain/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/navbar.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userMessages.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/domain/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/domain/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/login.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/default.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/default.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/navbar.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userMessages.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userMessages.ftl" afterDir="false" />
     </list>
     <list id="7e3b3d37-6443-48ae-a78e-adccec66f482" name="editing comments" comment="editing comments" />
     <list id="8b4a23d0-7a81-4295-9d9b-a4a795a81eb7" name="Migrating on freemarker template engine, tweaking filter redirect" comment="fix bugs" />
@@ -107,9 +95,8 @@
       <recent name="Z:\AT\swetti\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Application">
-    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.example.swetti.Application" />
+  <component name="RunManager" selected="JUnit.com.example.swetti in swetti">
+    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swetti" />
       <extension name="coverage">
         <pattern>
@@ -117,26 +104,81 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.example.swetti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.swetti.LoginTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="LoginTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swetti" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.example.swetti.controller.*" />
+          <option name="PATTERN" value="com.example.swetti.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.swetti.Application" />
+      <option name="PACKAGE_NAME" value="com.example.swetti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.swetti.LoginTest" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swetti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swetti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.swetti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.swetti.MainControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainControllerTest.mainPageTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swetti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swetti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.swetti" />
+      <option name="MAIN_CLASS_NAME" value="com.example.swetti.MainControllerTest" />
+      <option name="METHOD_NAME" value="mainPageTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.example.swetti in swetti" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="swetti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swetti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.swetti" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.com.example.swetti in swetti" />
+        <item itemvalue="JUnit.MainControllerTest" />
+        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.MainControllerTest.mainPageTest" />
+        <item itemvalue="JUnit.LoginTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -259,7 +301,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575153552895</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add subscriptions">
+      <created>1575158724953</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1575158724953</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -312,57 +361,66 @@
     <MESSAGE value="Password encoding. Bean validation" />
     <MESSAGE value="Add captcha check" />
     <MESSAGE value="Add user messages list and message editor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add user messages list and message editor" />
+    <MESSAGE value="Add subscriptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add subscriptions" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="557" y="169" key="#LoginTest.contextLoads" timestamp="1575159901789">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="557" y="169" key="#LoginTest.contextLoads/0.0.1920.1040@0.0.1920.1040" timestamp="1575159901789" />
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser" timestamp="1575153761619">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="203" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1575153761619" />
-    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575153552415">
+    <state x="640" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1575159000167">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575153552415" />
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1575158271669">
+    <state x="640" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575159000167" />
+    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575158724467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575158271669" />
-    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1575158271669">
+    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575158724467" />
+    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1575164661598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575158271669" />
-    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1575158271669">
+    <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
+    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1575164661598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575158271669" />
-    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1575158271669">
+    <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
+    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1575164661598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575158271669" />
-    <state width="1877" height="22" key="GridCell.Tab.1.bottom" timestamp="1575154452554">
+    <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
+    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1575164661598">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="22" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575154452554" />
-    <state width="1877" height="22" key="GridCell.Tab.1.center" timestamp="1575154452554">
+    <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
+    <state width="1877" height="393" key="GridCell.Tab.1.bottom" timestamp="1575164661505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="22" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575154452554" />
-    <state width="1877" height="22" key="GridCell.Tab.1.left" timestamp="1575154452554">
+    <state width="1877" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661505" />
+    <state width="1877" height="393" key="GridCell.Tab.1.center" timestamp="1575164661505">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="22" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575154452554" />
-    <state width="1877" height="22" key="GridCell.Tab.1.right" timestamp="1575154452554">
+    <state width="1877" height="393" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661505" />
+    <state width="1877" height="393" key="GridCell.Tab.1.left" timestamp="1575164661504">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="22" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575154452554" />
+    <state width="1877" height="393" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661504" />
+    <state width="1877" height="393" key="GridCell.Tab.1.right" timestamp="1575164661505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="393" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661505" />
     <state x="696" y="323" key="SettingsEditor" timestamp="1575138677794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="696" y="323" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575138677794" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575153556316">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575158727224">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575153556316" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575158727224" />
     <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1575136699666">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -379,6 +437,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1575137591017" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/swetti$LoginTest_contextLoads.ic" NAME="LoginTest.contextLoads Coverage Results" MODIFIED="1575159810987" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.swetti.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/swetti$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1575159877524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.swetti.*</FILTER>
+    </SUITE>
   </component>
   <component name="masterDetails">
     <states>
