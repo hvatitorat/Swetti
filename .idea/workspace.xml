@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="">
+    <list default="true" id="b33035b0-85fd-4f32-a509-1c6b4fcecfa3" name="Default Changelist" comment="Add tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/main.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/default.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/controller/MessageController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/swetti/repository/MessageRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageEdit.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userEdit.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/default.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/default.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/swetti/MainControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/swetti/MainControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/controller/MainController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/swetti/repository/MessageRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/swetti/repository/MessageRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/main.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/main.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageEdit.ftl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/parts/messageList.ftl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userEdit.ftl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/example/swetti/MainControllerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/example/swetti/MainControllerTest.class" afterDir="false" />
     </list>
     <list id="7e3b3d37-6443-48ae-a78e-adccec66f482" name="editing comments" comment="editing comments" />
     <list id="8b4a23d0-7a81-4295-9d9b-a4a795a81eb7" name="Migrating on freemarker template engine, tweaking filter redirect" comment="fix bugs" />
@@ -19,6 +21,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="241" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
@@ -95,7 +100,20 @@
       <recent name="Z:\AT\swetti\src\main\resources\templates" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.com.example.swetti in swetti">
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.example.swetti.Application" />
+      <module name="swetti" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.swetti.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="swetti" />
       <extension name="coverage">
@@ -107,22 +125,6 @@
       <option name="PACKAGE_NAME" value="com.example.swetti" />
       <option name="MAIN_CLASS_NAME" value="com.example.swetti.LoginTest" />
       <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTest.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="swetti" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.swetti.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.swetti" />
-      <option name="MAIN_CLASS_NAME" value="com.example.swetti.LoginTest" />
-      <option name="METHOD_NAME" value="contextLoads" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,11 +176,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
         <item itemvalue="JUnit.com.example.swetti in swetti" />
         <item itemvalue="JUnit.MainControllerTest" />
         <item itemvalue="JUnit.LoginTest" />
         <item itemvalue="JUnit.MainControllerTest.mainPageTest" />
-        <item itemvalue="JUnit.LoginTest.contextLoads" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1575158724953</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Add tests">
+      <created>1575164836096</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1575164836096</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -362,7 +371,8 @@
     <MESSAGE value="Add captcha check" />
     <MESSAGE value="Add user messages list and message editor" />
     <MESSAGE value="Add subscriptions" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add subscriptions" />
+    <MESSAGE value="Add tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add tests" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="169" key="#LoginTest.contextLoads" timestamp="1575159901789">
@@ -377,54 +387,58 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="640" y="444" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575159000167" />
-    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575158724467">
+    <state x="289" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1575218070594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575158724467" />
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom" timestamp="1575164661598">
+    <state x="289" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575218070594" />
+    <state x="571" y="113" key="CommitChangelistDialog2" timestamp="1575164835443">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
-    <state width="1877" height="393" key="GridCell.Tab.0.center" timestamp="1575164661598">
+    <state x="571" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1575164835443" />
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom" timestamp="1575222275689">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
-    <state width="1877" height="393" key="GridCell.Tab.0.left" timestamp="1575164661598">
+    <state width="1877" height="304" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575222275689" />
+    <state width="1877" height="304" key="GridCell.Tab.0.center" timestamp="1575222275688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
-    <state width="1877" height="393" key="GridCell.Tab.0.right" timestamp="1575164661598">
+    <state width="1877" height="304" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575222275688" />
+    <state width="1877" height="304" key="GridCell.Tab.0.left" timestamp="1575222275688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661598" />
-    <state width="1877" height="393" key="GridCell.Tab.1.bottom" timestamp="1575164661505">
+    <state width="1877" height="304" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575222275688" />
+    <state width="1877" height="304" key="GridCell.Tab.0.right" timestamp="1575222275688">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661505" />
-    <state width="1877" height="393" key="GridCell.Tab.1.center" timestamp="1575164661505">
+    <state width="1877" height="304" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575222275688" />
+    <state width="1877" height="393" key="GridCell.Tab.1.bottom" timestamp="1575166733594">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661505" />
-    <state width="1877" height="393" key="GridCell.Tab.1.left" timestamp="1575164661504">
+    <state width="1877" height="393" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1575166733594" />
+    <state width="1877" height="393" key="GridCell.Tab.1.center" timestamp="1575166733593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661504" />
-    <state width="1877" height="393" key="GridCell.Tab.1.right" timestamp="1575164661505">
+    <state width="1877" height="393" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1575166733593" />
+    <state width="1877" height="393" key="GridCell.Tab.1.left" timestamp="1575166733593">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="393" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575164661505" />
+    <state width="1877" height="393" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1575166733593" />
+    <state width="1877" height="393" key="GridCell.Tab.1.right" timestamp="1575166733593">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="393" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1575166733593" />
     <state x="696" y="323" key="SettingsEditor" timestamp="1575138677794">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="696" y="323" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1575138677794" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575158727224">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1575164838467">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575158727224" />
-    <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1575136699666">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1575164838467" />
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1575207815825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="656" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575136699666" />
+    <state x="656" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1575207815825" />
     <state x="522" y="195" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1575137554457">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -443,6 +457,9 @@
       <FILTER>com.example.swetti.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/swetti$LoginTest.ic" NAME="LoginTest Coverage Results" MODIFIED="1575159877524" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.example.swetti.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/swetti$com_example_swetti_in_swetti.ic" NAME="com.example.swetti in swetti Coverage Results" MODIFIED="1575164857967" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.example.swetti.*</FILTER>
     </SUITE>
   </component>

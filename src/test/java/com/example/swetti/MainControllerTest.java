@@ -1,6 +1,6 @@
 package com.example.swetti;
 
-import com.example.swetti.controller.MainController;
+import com.example.swetti.controller.MessageController;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 @WithUserDetails(value = "admin")
 public class MainControllerTest {
     @Autowired
-    private MainController controller;
+    private MessageController controller;
 
     @Autowired
     private MockMvc mockMvc;
